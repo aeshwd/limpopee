@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIMPOPEE Online Shopping Mart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar"  style="text-align: center; align-items: center;">
+    <div class="logo"><img src="images/logo.png" width="200px"></div>
+    
+  </nav>
+  <header class="hero">
+    <div class="hero-content">
+        <img src="images/shop.png" width="200px">
+      <h1>🎉 LIMPOPEE Online Shopping Mart is Coming Soon! 🎉</h1>
+      <p>🛍️ <strong>World's First Ultimate Online Shopping Destination</strong> 🛍️<br>
+        Where Your Desires Meet Innovation!</p>
+      <p>🚀 Tentative Launch: <strong>November 2025</strong></p>
+      <h2>💥 Stay Tuned! Be the First to Shop with LIMPOPEE! 💥</h2>
+      <a href="#" class="cta-button" onclick="openPopup()">Notify Me</a>
+    </div>
+   
+  </header>
+
+
+  <div class="popup-overlay" id="popup">
+    <div class="popup">
+      <img src="images/logo.png" width="150px">
+      <h3 style="color: red;">Thank You for Your Interest!</h3>
+      <p style="font-family: cursive;">Please WhatsApp us at <strong>+91 6280144157</strong> to get the latest updates from us.<br>  <br>
+        <p style="font-weight: 800;"> "Thanks for your interest in LIMPOPEE Online Shopping Mart. </p> <br>
+      Stay safe, stay tuned!</p> <br> 
+      <button class="close-btn" onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+
+  <footer>
+    <p>© 2025 LIMPOPEE Online Shopping Mart. All rights reserved.</p>
+  </footer>
+</body>
+<script>
+    function openPopup() {
+      document.getElementById('popup').style.display = 'flex';
+    }
+
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+  </script>
+</html>
